@@ -1,0 +1,9 @@
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - cp privacy.html public/
+    - cp support.html public/
+  artifacts:
+    paths:
+      - public
